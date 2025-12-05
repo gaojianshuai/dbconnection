@@ -1,0 +1,38 @@
+.database-explorer {
+  display: flex;
+  height: 100%;
+  gap: 16px;
+}
+
+.explorer-sidebar {
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.explorer-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.tree-card,
+.table-card {
+  height: 100%;
+}
+
+.tree-card .ant-card-body {
+  padding: 16px;
+  height: calc(100% - 57px);
+  overflow-y: auto;
+}
+
+.table-card .ant-card-body {
+  height: calc(100% - 57px);
+  overflow-y: auto;
+}
+
+.tree-node {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+

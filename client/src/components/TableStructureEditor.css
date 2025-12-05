@@ -1,0 +1,15 @@
+.table-structure-editor {
+  padding: 16px;
+}
+
+.editor-toolbar {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-structure-editor .ant-table-cell {
+  padding: 8px;
+}
+

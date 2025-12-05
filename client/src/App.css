@@ -1,0 +1,62 @@
+.app-layout {
+  height: 100vh;
+}
+
+.app-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.header-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-title {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.header-tabs {
+  display: flex;
+  gap: 20px;
+}
+
+.header-tabs span {
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: all 0.3s;
+  font-weight: 500;
+}
+
+.header-tabs span:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.header-tabs span.active {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.app-sider {
+  background: white;
+  border-right: 1px solid #e8e8e8;
+  overflow-y: auto;
+}
+
+.app-content {
+  background: #f0f2f5;
+  padding: 24px;
+  overflow-y: auto;
+}
+

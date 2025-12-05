@@ -1,0 +1,19 @@
+.table-data-editor {
+  padding: 16px;
+}
+
+.editor-toolbar {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-data-editor .ant-table-cell {
+  padding: 8px;
+}
+
+.table-data-editor .ant-input {
+  font-size: 12px;
+}
+
